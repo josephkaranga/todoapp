@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: greenyellow;
+}
+#task-form {
+  width: 70%;
+  margin: 20px auto;
+}
+
+#task-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#task-form input[type="text"],
+#task-form input[type="date"],
+#task-form textarea {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+#task-form button {
+  width: 100%;
+  background-color: rgb(236, 49, 49);
+  color: yellow;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#task-list {
+  margin-top: 20px;
+
+}
+#task-list h2 {
+  margin: 20PX;
+
+}
+#task-list ul {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#task-list ul li {
+  background-color:green;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.complicated {
+  text-decoration: line-through;
+  background-color: #f0f0f0;
+}
